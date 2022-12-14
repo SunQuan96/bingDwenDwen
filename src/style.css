@@ -1,3 +1,10 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+*::before, *::after{box-sizing: border-box;}
+
+body{
+  background: #ffffff;
+  min-height: 100vh;
+}
 .bingDwenDwenContainer {
     position: relative;
     z-index: 2;
@@ -13,7 +20,7 @@
 
 .ear {
     width: 71px;
-    height: 103px;
+    height: 99px;
     background-color: black;
     border-radius: 40px 49px 0 89px;
     transform: rotate(49deg);   
@@ -24,7 +31,7 @@
     width: 71px;
     height: 103px;
     background-color: black;
-    left: 331px;
+    left: 316px;
     border-radius: 49px 40px 89px 0px;
     transform: rotate(309deg);
     top: 0px;
@@ -55,7 +62,7 @@
 
 .rightHand {
     top: 120px;
-    left: 343px;
+    left: 323px;
     width: 64px;
     height: 126px;
     transform: rotate(43deg);
@@ -219,8 +226,8 @@
   background-color: black;
   border: 5px solid white;
   position: absolute;
-  left: 125px;
-  top: 130px;
+  left: 131px;
+  top: 131px;
   box-shadow: 0 0 0 0 gray;
 }
 
