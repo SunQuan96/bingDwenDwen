@@ -6,12 +6,12 @@ body{
   min-height: 100vh;
 }
 .bingDwenDwenContainer {
-    position: absolute;
+    position: relative;
     z-index: 2;
     width: 400px;
     height: 456px;
     left: 150px;
-    top: 5px;
+    top: 10px;
     border: 10px solid black;
     background: white;
     border-radius: 360px 360px 240px 240px;
@@ -241,3 +241,6 @@ body{
   box-shadow: 120px 0 0 0 white;
 }
 
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
