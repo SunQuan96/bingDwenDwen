@@ -240,7 +240,7 @@ let string = `.skin *{box-sizing: border-box;margin: 0;padding: 0;}
 `;
 const player = {
   id: undefined,
-  time: 100,
+  time: 10,
   ui: {
     demo: document.querySelector("#demo"),
     demo2: document.querySelector("#demo2"),
@@ -286,17 +286,17 @@ const player = {
   },
   slow: () => {
     player.pause();
-    player.time = 200;
+    player.time = 50;
     player.play();
   },
   normal: () => {
     player.pause();
-    player.time = 80;
+    player.time = 15;
     player.play();
   },
   fast: () => {
     player.pause();
-    player.time = 10;
+    player.time = 0;
     player.play();
   },
 };
